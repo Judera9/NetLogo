@@ -136,17 +136,17 @@ to eat-grass
 end
 ```
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626154523506.png" alt="image-20210626154523506" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626154523506.png" alt="image-20210626154523506" style="zoom:67%;" />
 
 
 
 ##### 创建监视器
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626154831696.png" alt="image-20210626154831696" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626154831696.png" alt="image-20210626154831696" style="zoom:67%;" />
 
 turtles是一个agentset，即所有海龟的集合；count操作告诉我们这个集合中有多少主体（这个变量真的是哪都能用啊，就当成一个全局变量好了）
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626155319289.png" alt="image-20210626155319289" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626155319289.png" alt="image-20210626155319289" style="zoom:67%;" />
 
 这个监视器用到with语法，就是加了一个限制条件（一个小的agentset）
 
@@ -154,7 +154,7 @@ turtles是一个agentset，即所有海龟的集合；count操作告诉我们这
 
 ##### 开关的用法以及energy显示
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626155625524.png" alt="image-20210626155625524" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626155625524.png" alt="image-20210626155625524" style="zoom:67%;" />
 
 不要漏掉'?'
 
@@ -241,7 +241,7 @@ end
 
 **注意**：这里的代码是以前旧版本的NetLogo，新版本5以后都是直接用Reset-ticks和tick来画图的，然后组件的设置中设置画笔：
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626175417999.png" alt="image-20210626175417999" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626175417999.png" alt="image-20210626175417999" style="zoom:67%;" />
 
 ```lisp
 to setup
@@ -269,7 +269,7 @@ ticks是一个报告器，返回时钟计数器当前值
 
 ***将view updates更换为使用"on ticks"***：观感更好，等时间间隔查看模型
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626175739278.png" alt="image-20210626175739278" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626175739278.png" alt="image-20210626175739278" style="zoom:67%;" />
 
 ```lisp
 to go
@@ -295,7 +295,7 @@ end
 
 ##### File
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626182113498.png" alt="image-20210626182113498" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626182113498.png" alt="image-20210626182113498" style="zoom:67%;" />
 
 Save As NetLogo Web：实用，可以让别人在网页端运行
 
@@ -319,13 +319,13 @@ ctrl+E 跳到定义
 
 ctrl+U 显示Usage
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626183447280.png" alt="image-20210626183447280" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626183447280.png" alt="image-20210626183447280" style="zoom:67%;" />
 
 
 
 ##### Tools
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626183620185.png" alt="image-20210626183620185" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626183620185.png" alt="image-20210626183620185" style="zoom:67%;" />
 
 Halt：强行停止（可能不符合预期）
 
@@ -347,7 +347,7 @@ Turtle Shapes Editor：画海龟图形
 
 有些图形有3D图形的映射，有些没有（但是侧视图倒也不是一条线）
 
-![image-20210626184922200](C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626184922200.png)
+![image-20210626184922200](D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626184922200.png)
 
 
 
@@ -448,9 +448,9 @@ end
 
 
 
-![Screenshot](C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\colors.jpg)
+![Screenshot](D:\AppData\Learning\Coding\NetlogoLearning\note.assets\colors.jpg)
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626230127441.png" alt="image-20210626230127441" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626230127441.png" alt="image-20210626230127441" style="zoom:67%;" />
 
 > - Some of the colors have names. (You can use these names in your code.)
 > - Every named color except black and white has a number ending in 5.
@@ -479,7 +479,7 @@ approximate-hsb和approximate-rgb可以实现两种颜色表示方式的映射
 
 ***运行Code Example***后可以发现，调低saturation其实就是当前hsb数值增大（变亮），调低brightness就是当前hsb数值减小（变暗）
 
-<img src="C:\Users\Jude\Learning\Coding\NetLogoLearning\note.assets\image-20210626230850118.png" alt="image-20210626230850118" style="zoom:67%;" />
+<img src="D:\AppData\Learning\Coding\NetlogoLearning\note.assets\image-20210626230850118.png" alt="image-20210626230850118" style="zoom:67%;" />
 
 ```lisp
 ;;; HSB又称HSV，表示一种颜色模式：在HSB模式中，H(hues)表示色相，S(saturation)表示饱和度，B（brightness）表示亮度HSB模式对应的媒介是人眼。
@@ -558,6 +558,504 @@ turtles with
 turtles-on neighbors4  ; turtles neighbors
 [my-links] of turtle 0  ; all links connected to turtle 0
 ```
+
+主体集合的命令
+
+```lisp
+ask
+any?  ; 是否为空
+all?
+ask one-of tuetles [set color green]
+ask one-of patches [sprout 1]  ; 随机一个瓦片生出一个海龟
+ask max-one-of turtles [sum assets] [die]  ; 杀死assets最大的turtle
+...
+; 可以查看词典和模型库
+```
+
+
+
+#### Breeds
+
+允许定义不同种类（breeds）的海龟或者链，即不同turtle对象或者不同的行为
+
+```lisp
+breed [wolves wolf]
+breed [sheep a-sheep]  ; 后定义的显示在上层
+```
+
+
+
+...内容很多，以后再来探索吧
+
+
+
+## 6.28
+
+### 模型研究
+
+#### Giant Component
+
+```lisp
+turtles-own
+[
+  ;; this is used to mark turtles we have already visited
+  explored?
+]
+
+globals
+[
+  component-size          ;; number of turtles explored so far in the current component
+  giant-component-size    ;; number of turtles in the giant component
+  
+  giant-start-node        ;; node from where we started exploring the giant component
+]
+
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Setup Procedures ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+
+to setup
+  clear-all
+  set-default-shape turtles "person"
+  make-turtles
+  ;; at this stage, all the components will be of size 1,
+  ;; since there are no edges yet
+  find-all-components
+  color-giant-component
+  reset-ticks
+end
+
+to make-turtles
+  create-turtles num-nodes [ set size 3 ]
+  layout-circle turtles max-pxcor - 1
+end
+
+;;;;;;;;;;;;;;;;;;;;;;
+;;; Main Procedure ;;;
+;;;;;;;;;;;;;;;;;;;;;;
+
+to go
+  ;; stop if the below condition is true, as then we have a fully connected network (every two nodes are connected)
+  if ( (2 * count links ) >= ( (count turtles) * (count turtles - 1) ) ) [
+    display
+    user-message "Network is fully connected. No more edges can be added."
+    stop
+  ]
+  add-edge
+  find-all-components
+  color-giant-component
+  ask links [ set color [color] of end1 ]  ;; recolor all edges
+  ;; layout the turtles with a spring layout, but stop laying out when all nodes are in the giant component
+  if not all? turtles [ color = red ] [ layout ]
+  tick
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Network Exploration ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; to find all the connected components in the network, their sizes and starting turtles
+to find-all-components
+  ask turtles [ set explored? false ]
+  ;; keep exploring till all turtles get explored
+  loop
+  [
+    ;; pick a node that has not yet been explored
+    let start one-of turtles with [ not explored? ]
+    if start = nobody [ stop ]
+    ;; reset the number of turtles found to 0
+    ;; this variable is updated each time we explore an
+    ;; unexplored node.
+    set component-size 0
+    ;; at this stage, we recolor everything to light gray
+    ask start [ explore (gray + 2) ]
+    ;; the explore procedure updates the component-size variable.
+    ;; so check, have we found a new giant component?
+    if component-size > giant-component-size
+    [
+      set giant-component-size component-size
+      set giant-start-node start
+    ]
+  ]
+end
+
+;; Finds all turtles reachable from this node (and recolors them)
+to explore [new-color]  ;; node procedure
+  if explored? [ stop ]
+  set explored? true
+  set component-size component-size + 1
+  ;; color the node
+  set color new-color
+  ask link-neighbors [ explore new-color ]  ; 凡是linked，都涂成相同的颜色
+end
+
+;; color the giant component red
+to color-giant-component
+  ask turtles [ set explored? false ]
+  ask giant-start-node [ explore red ]
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;
+;;; Edge Operations ;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+
+;; pick a random missing edge and create it
+to add-edge
+  let node1 one-of turtles
+  let node2 one-of turtles
+  ask node1 [
+    ifelse link-neighbor? node2 or node1 = node2
+    ;; if there's already an edge there, then go back
+    ;; and pick new turtles
+    [ add-edge ]
+    ;; else, go ahead and make it
+    [ create-link-with node2 ]
+  ]
+end
+
+;;;;;;;;;;;;;;
+;;; Layout ;;;
+;;;;;;;;;;;;;;
+to layout
+  if not layout? [ stop ]
+  ;; the number 10 here is arbitrary; more repetitions slows down the
+  ;; model, but too few gives poor layouts
+  repeat 10 [
+    do-layout
+    display  ;; so we get smooth animation
+  ]
+end
+
+to do-layout
+  layout-spring (turtles with [any? link-neighbors]) links 0.4 6 1
+end
+
+
+; Copyright 2005 Uri Wilensky.
+; See Info tab for full copyright and license.
+```
+
+**想法记录：**
+
+* debug方式，show语句打印在command center
+* **set-defult-shape turtles "person"**
+* 原语相当多，这是不太友好的一点，不过有的东西可以不用原语实现（麻烦一点），所以多写多看吧
+* **loop [ orders ]**，使用stop可以跳出循环
+
+> This agent exits immediately from the enclosing procedure, ask, or ask-like construct (e.g. crt, hatch, sprout). **Only the enclosing procedure or construct stops, not all execution for the agent.**
+
+```lisp
+loop  ; 常用结构
+[
+  if situation [stop]
+]
+```
+
+* 深度优先搜索
+
+```lisp
+;; 这个方法用在了三个地方（每一轮搜索之前explore?都是false）
+;; 首先，把所有的turtles都变成gray + 2的颜色
+;; 然后，explore本身会调用，进行深度优先的递归搜索（需要遍历全部，所以广度也一样，深度代码好写）
+;; 最后，在color-giant-component将最大的component涂成红色
+;; Finds all turtles reachable from this node (and recolors them)
+to explore [new-color]  ;; node procedure
+  if explored? [ stop ]
+  set explored? true
+  set component-size component-size + 1
+  ;; color the node
+  set color new-color
+  ; show link-neighbors
+  ask link-neighbors [ explore new-color ]
+end
+```
+
+* links，之前的教程没有提到太多，以下是Dcitionary的一个例子
+
+```lisp
+crt 2
+ask turtle 0
+[ create-link-to turtle 1 ]
+ask links
+[ show end1 ] ;; shows turtle 0
+```
+
+```lisp
+;; pick a random missing edge and create it
+to add-edge
+  let node1 one-of turtles
+  let node2 one-of turtles
+  ask node1 [
+    ifelse link-neighbor? node2 or node1 = node2
+    ;; if there's already an edge there, then go back
+    ;; and pick new turtles
+    [ add-edge ]
+    ;; else, go ahead and make it
+    [ create-link-with node2 ]
+  ]
+end
+```
+
+* layout是摆放方式，可以调整turtles和links的摆放方式（有两种agent的layout）
+
+#### HIV
+
+```lisp
+globals [
+  infection-chance  ;; The chance out of 100 that an infected person will pass on
+                    ;;   infection during one week of couplehood.
+  symptoms-show     ;; How long a person will be infected before symptoms occur
+                    ;;   which may cause the person to get tested.
+  slider-check-1    ;; Temporary variables for slider values, so that if sliders
+  slider-check-2    ;;   are changed on the fly, the model will notice and
+  slider-check-3    ;;   change people's tendencies appropriately.
+  slider-check-4
+]
+
+turtles-own [
+  infected?          ;; If true, the person is infected.  It may be known or unknown.
+  known?             ;; If true, the infection is known (and infected? must also be true).
+  infection-length   ;; How long the person has been infected.
+  coupled?           ;; If true, the person is in a sexually active couple.
+  couple-length      ;; How long the person has been in a couple.
+  ;; the next four values are controlled by sliders
+  commitment         ;; How long the person will stay in a couple-relationship.
+  coupling-tendency  ;; How likely the person is to join a couple.
+  condom-use         ;; The percent chance a person uses protection.
+  test-frequency     ;; Number of times a person will get tested per year.
+  partner            ;; The person that is our current partner in a couple.
+]
+
+;;;
+;;; SETUP PROCEDURES
+;;;
+
+to setup
+  clear-all
+  setup-globals
+  setup-people
+  reset-ticks
+end
+
+to setup-globals
+  set infection-chance 50    ;; if you have unprotected sex with an infected partner,
+                             ;; you have a 50% chance of being infected
+  set symptoms-show 200.0    ;; symptoms show up 200 weeks after infection
+  set slider-check-1 average-commitment
+  set slider-check-2 average-coupling-tendency
+  set slider-check-3 average-condom-use
+  set slider-check-4 average-test-frequency
+end
+
+;; Create carrying-capacity number of people half are righty and half are lefty
+;;   and some are sick.  Also assigns colors to people with the ASSIGN-COLORS routine.
+
+to setup-people
+  create-turtles initial-people
+    [ setxy random-xcor random-ycor
+      set known? false
+      set coupled? false
+      set partner nobody
+      ifelse random 2 = 0
+        [ set shape "person righty" ]
+        [ set shape "person lefty" ]
+      ;; 2.5% of the people start out infected, but they don't know it
+      set infected? (who < initial-people * 0.025)
+      if infected?
+        [ set infection-length random-float symptoms-show ]
+      assign-commitment
+      assign-coupling-tendency
+      assign-condom-use
+      assign-test-frequency
+      assign-color ]
+end
+
+;; Different people are displayed in 3 different colors depending on health
+;; green is not infected
+;; blue is infected but doesn't know it
+;; red is infected and knows it
+
+to assign-color  ;; turtle procedure
+  ifelse not infected?
+    [ set color green ]
+    [ ifelse known?
+      [ set color red ]
+      [ set color blue ] ]
+end
+
+;; The following four procedures assign core turtle variables.  They use
+;; the helper procedure RANDOM-NEAR so that the turtle variables have an
+;; approximately "normal" distribution around the average values set by
+;; the sliders.
+
+to assign-commitment  ;; turtle procedure
+  set commitment random-near average-commitment
+end
+
+to assign-coupling-tendency  ;; turtle procedure
+  set coupling-tendency random-near average-coupling-tendency
+end
+
+to assign-condom-use  ;; turtle procedure
+  set condom-use random-near average-condom-use
+end
+
+to assign-test-frequency  ;; turtle procedure
+  set test-frequency random-near average-test-frequency
+end
+
+to-report random-near [center]  ;; turtle procedure
+  let result 0
+  repeat 40
+    [ set result (result + random-float center) ]
+  report result / 20
+end
+
+;;;
+;;; GO PROCEDURES
+;;;
+
+to go
+  if all? turtles [known?]
+    [ stop ]
+  check-sliders
+  ask turtles
+    [ if infected?
+        [ set infection-length infection-length + 1 ]
+      if coupled?
+        [ set couple-length couple-length + 1 ] ]
+  ask turtles
+    [ if not coupled?
+        [ move ] ]
+  ;; Righties are always the ones to initiate mating.  This is purely
+  ;; arbitrary choice which makes the coding easier.
+  ask turtles
+    [ if not coupled? and shape = "person righty" and (random-float 10.0 < coupling-tendency)
+        [ couple ] ]
+  ask turtles [ uncouple ]
+  ask turtles [ infect ]
+  ask turtles [ test ]
+  ask turtles [ assign-color ]
+  tick
+end
+
+;; Each tick a check is made to see if sliders have been changed.
+;; If one has been, the corresponding turtle variable is adjusted
+
+to check-sliders
+  if (slider-check-1 != average-commitment)
+    [ ask turtles [ assign-commitment ]
+      set slider-check-1 average-commitment ]
+  if (slider-check-2 != average-coupling-tendency)
+    [ ask turtles [ assign-coupling-tendency ]
+      set slider-check-2 average-coupling-tendency ]
+  if (slider-check-3 != average-condom-use)
+    [ ask turtles [ assign-condom-use ]
+      set slider-check-3 average-condom-use ]
+  if (slider-check-4 != average-test-frequency )
+    [ ask turtles [ assign-test-frequency ]
+      set slider-check-4 average-test-frequency ]
+end
+
+;; People move about at random.
+
+to move  ;; turtle procedure
+  rt random-float 360
+  fd 1
+end
+
+;; People have a chance to couple depending on their tendency to have sex and
+;; if they meet.  To better show that coupling has occurred, the patches below
+;; the couple turn gray.
+
+to couple  ;; turtle procedure -- righties only!
+  let potential-partner one-of (turtles-at -1 0)
+                          with [not coupled? and shape = "person lefty"]
+  if potential-partner != nobody
+    [ if random-float 10.0 < [coupling-tendency] of potential-partner
+      [ set partner potential-partner
+        set coupled? true
+        ask partner [ set coupled? true ]
+        ask partner [ set partner myself ]
+        move-to patch-here ;; move to center of patch
+        ask potential-partner [move-to patch-here] ;; partner moves to center of patch
+        set pcolor gray - 3
+        ask (patch-at -1 0) [ set pcolor gray - 3 ] ] ]
+end
+
+;; If two peoples are together for longer than either person's commitment variable
+;; allows, the couple breaks up.
+
+to uncouple  ;; turtle procedure
+  if coupled? and (shape = "person righty")
+    [ if (couple-length > commitment) or
+         ([couple-length] of partner) > ([commitment] of partner)
+        [ set coupled? false
+          set couple-length 0
+          ask partner [ set couple-length 0 ]
+          set pcolor black
+          ask (patch-at -1 0) [ set pcolor black ]
+          ask partner [ set partner nobody ]
+          ask partner [ set coupled? false ]
+          set partner nobody ] ]
+end
+
+;; Infection can occur if either person is infected, but the infection is unknown.
+;; This model assumes that people with known infections will continue to couple,
+;; but will automatically practice safe sex, regardless of their condom-use tendency.
+;; Note also that for condom use to occur, both people must want to use one.  If
+;; either person chooses not to use a condom, infection is possible.  Changing the
+;; primitive to AND in the third line will make it such that if either person
+;; wants to use a condom, infection will not occur.
+
+to infect  ;; turtle procedure
+  if coupled? and infected? and not known?
+    [ if random-float 10 > condom-use or
+         random-float 10 > ([condom-use] of partner)
+        [ if random-float 100 < infection-chance
+            [ ask partner [ set infected? true ] ] ] ]
+end
+
+;; People have a tendency to check out their health status based on a slider value.
+;; This tendency is checked against a random number in this procedure. However, after being infected for
+;; some amount of time called SYMPTOMS-SHOW, there is a 5% chance that the person will
+;; become ill and go to a doctor and be tested even without the tendency to check.
+
+to test  ;; turtle procedure
+  if random-float 52 < test-frequency
+    [ if infected?
+        [ set known? true ] ]
+  if infection-length > symptoms-show
+    [ if random-float 100 < 5
+        [ set known? true ] ]
+end
+
+;;;
+;;; MONITOR PROCEDURES
+;;;
+
+to-report %infected
+  ifelse any? turtles
+    [ report (count turtles with [infected?] / count turtles) * 100 ]
+    [ report 0 ]
+end
+
+
+; Copyright 1997 Uri Wilensky.
+; See Info tab for full copyright and license.
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
